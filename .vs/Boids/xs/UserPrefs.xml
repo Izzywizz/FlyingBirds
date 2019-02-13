@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{131EA63B-33A2-917D-98A2-67F5574E359A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LookAtAttractor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Attractor.cs" Line="26" Column="5" />
+      <File FileName="Assets/Scripts/LookAtAttractor.cs" Line="5" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
