@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -263,6 +264,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e468123670544fb8f7a4af00484501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boidPrefab: {fileID: 7642346762821736464, guid: 495e841b53896479cb1908b9b6861361,
+    type: 3}
+  boidAnchor: {fileID: 1516996377}
+  numBoids: 100
+  spawnRadius: 100
+  spawnDelay: 0.1
+  velocy: 30
+  neighbourDist: 30
+  collDist: 4
+  velMatching: 0.25
+  flockCentering: 0.2
+  collAvoid: 2
+  attractPull: 2
+  attractPush: 2
+  attractPushDist: 5
 --- !u!1 &1362853860
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +323,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ad216b5a6f54131889c020948e2c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radius: 10
+  xPhase: 0.5
+  yPhase: 0.4
+  zPhase: 0.1
 --- !u!96 &1362853862
 TrailRenderer:
   serializedVersion: 2
@@ -473,7 +505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516996376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.16951823, y: -0.13083827, z: -1.9978117}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
