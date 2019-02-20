@@ -282,7 +282,7 @@ MonoBehaviour:
   numBoids: 100
   spawnRadius: 100
   spawnDelay: 0.1
-  velocy: 30
+  velocity: 30
   neighbourDist: 30
   collDist: 4
   velMatching: 0.25

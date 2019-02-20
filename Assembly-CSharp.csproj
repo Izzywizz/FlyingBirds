@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Attractor.cs" />
     <Compile Include="Assets\Scripts\Boid.cs" />
     <Compile Include="Assets\Scripts\LookAtAttractor.cs" />
+    <Compile Include="Assets\Scripts\Neighborhood.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/isfandyarali/learning unity/Boids/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
